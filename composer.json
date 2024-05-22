@@ -1,0 +1,30 @@
+{
+  "name": "matheusgzancanela/phptips001",
+  "description": "GERANDO BLOG COM PAGINAÇÃO DE RESULTADOS | PHP TIPS #005",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "fzaninotto/faker": "1.8.*",
+    "coffeecode/datalayer": "1.1.*",
+    "coffeecode/paginator": "1.0.*"
+  }
+}
